@@ -1,7 +1,9 @@
-# Write your MySQL query statement below
-WITH CTE AS (
-    SELECT salary,DENSE_RANK() OVER (ORDER BY salary DESC) AS DR
-    FROM Employee
+/* Write your T-SQL query statement below */
+With CTE as (
+    Select *,Dense_rank() over (order by Salary desc) as [DR] from Employee
 )
-SELECT MAX(salary) AS SecondHighestSalary FROM CTE
-WHERE DR = 2;
+select max(salary) as SecondHighestSalary
+from CTE Where DR=2
+
+
+-- MAX() here is useful because it returns NULL when no row has DR = 2.
