@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0177-nth-highest-salary](https://github.com/2023pietcdcharchit010-netizen/SQL/tree/master/0177-nth-highest-salary) |
 | [0178-rank-scores](https://github.com/2023pietcdcharchit010-netizen/SQL/tree/master/0178-rank-scores) |
 | [0181-employees-earning-more-than-their-managers](https://github.com/2023pietcdcharchit010-netizen/SQL/tree/master/0181-employees-earning-more-than-their-managers) |
+| [0196-delete-duplicate-emails](https://github.com/2023pietcdcharchit010-netizen/SQL/tree/master/0196-delete-duplicate-emails) |
 | [0197-rising-temperature](https://github.com/2023pietcdcharchit010-netizen/SQL-PROBLEMS/tree/master/0197-rising-temperature) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/2023pietcdcharchit010-netizen/SQL/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0577-employee-bonus](https://github.com/2023pietcdcharchit010-netizen/SQL-PROBLEMS/tree/master/0577-employee-bonus) |
