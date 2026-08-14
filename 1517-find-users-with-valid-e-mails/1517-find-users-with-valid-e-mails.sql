@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
 SELECT *
 FROM Users
-WHERE mail REGEXP '^[A-Za-z][A-Za-z0-9_.-]*@leetcode\\.com$'
-AND BINARY mail LIKE '%@leetcode.com';
+WHERE mail REGEXP '^[a-zA-Z][a-zA-Z0-9_.-]*@leetcode\\.com$'
+and Binary mail like '%@leetcode.com' 
