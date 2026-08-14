@@ -1,9 +1,11 @@
-WITH CTE AS (
-    SELECT DISTINCT sell_date,product FROM Activities
-)
-SELECT 
-    sell_date,COUNT(*) AS num_sold,
-    STRING_AGG(product, ',') WITHIN GROUP (ORDER BY product) AS Products
-FROM CTE
-GROUP BY sell_date
-ORDER BY sell_date;
+# Write your MySQL query statement below
+select sell_date,
+count(distinct product) as num_sold,
+group_concat(
+    Distinct product
+    Order by product
+    Separator ',' 
+) as Products
+from Activities
+Group by sell_date
+Order by sell_date , product
